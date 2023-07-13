@@ -1,11 +1,5 @@
 {
   // For more information, visit: https://go.microsoft.com/fwlink/?LinkId=733558
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "prettier.prettierPath": "./node_modules/prettier",
   "version": "2.0.0",
   "tasks": [
     {
@@ -44,6 +38,5 @@
         }
       }
     }
-  ],
-  "vsicons.presets.angular": true
+  ]
 }
