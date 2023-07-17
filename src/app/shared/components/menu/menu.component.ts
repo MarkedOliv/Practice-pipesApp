@@ -14,10 +14,12 @@ export class MenuComponent implements OnInit {
     basics: string;
     numbers: string;
     uncommon: string;
+    custom: string;
   } = {
     basics: '/',
     numbers: '/numbers',
     uncommon: '/uncommon',
+    custom: '/custom',
   };
 
   ngOnInit(): void {
@@ -46,12 +48,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'Pipes personalizados',
         icon: 'pi pi-cog',
-        items: [
-          {
-            label: 'Otro elemento',
-            icon: 'pi pi-cog',
-          },
-        ],
+        routerLink: this.routes.custom,
       },
     ];
   }
